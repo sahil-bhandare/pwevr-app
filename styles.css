@@ -1,0 +1,170 @@
+body {
+  background-color: black;
+}
+
+h4 {
+  color: white;
+}
+
+.logo-box {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 15rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.top-navbar {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.hamburger_menu {
+  width: 2rem;
+}
+
+.qr-code {
+  width: 1.75rem;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+.icon {
+  width: 1.8rem;
+}
+
+.username-box {
+  display: block;
+  border: solid;
+  border-color: darkorange;
+  color: #FFFFFF;
+  background-color: black;
+  border-radius: 25px;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.charger-menu {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 1.25rem;
+  background: transparent;
+  color: #FFFFFF;
+  border-color: darkorange;
+  border-width: 0.1rem;
+  text-align: right;
+  margin-top: -0.25rem;
+}
+
+.charger-menu:focus {
+  outline: none;
+}
+
+.list {
+  color: black;
+}
+
+.counting-box {
+  text-align: center;
+  padding-top: 0.25rem;
+}
+
+.start-stop {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 4rem;
+  background-color: darkorange;
+  border-radius: 25px;
+  border-color: darkorange;
+  border-style: solid;
+  margin-top: 0.25rem;
+}
+
+.start-stop:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.start-stop:focus {
+  outline: none;
+}
+
+.pay {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 4rem;
+  background-color: darkorange;
+  border-radius: 25px;
+  border-color: darkorange;
+  border-style: solid;
+}
+
+.pay:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.pay:focus {
+  outline: none;
+}
+
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 3rem;
+  background-color: black;
+  border-radius: 25px;
+  border-color: darkorange;
+  border-style: solid;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.contact:hover {
+  background-color: darkorange;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact:focus {
+  outline: none;
+}
+
+.stores {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.playstore {
+  width: 2rem;
+  margin-right: 1.75rem;
+}
+
+.appstore {
+  width: 2rem;
+}
+
+a{
+  text-decoration: none;
+}

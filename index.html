@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PWEVR APP</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.ico">
+  </head>
+
+  <body>
+
+  <div class="logo-box">
+    <img src="logo.svg" alt="logo" class="logo">
+  </div>
+
+  <div class="top-navbar">
+  <img src="hamburger_menu.png" class="hamburger_menu" alt="hamburger-menu"></img>
+  <img src="qr-code.png" alt="qr-code" class="qr-code"></img>
+  <img src="icon.png" class="icon" alt="PWEVR ICON"></img>
+  </div>
+
+  <select name="charger-menu" class="charger-menu">
+    <option value="Select Charger" selected disabled class="list">- Select Charger -</option>
+    <option value="Charger-1" class="list">Charger #1</option>
+    <option value="Charger-2" class="list">Charger #2</option>
+    <option value="Charger-3" class="list">Charger #3</option>
+  </select>
+
+  <div class="counting-box">
+    <h4>
+      <span>Power Consumed</span> -
+      <span id="power">0 kW</span>
+    </h4>
+    <h4>
+      <span>Bill Amount</span> -
+      <span id="amount">0 Rs</span>
+    </h4>
+    <h4>
+      <span>Time Duration</span> -
+      <span id="hour">00 Hr</span> :
+      <span id="min">00 Min</span> :
+      <span id="sec">00 Sec</span>
+    </h4>
+    <h4>
+      <span>Battery Percentage</span> -
+      <span id="battery">0 %</span>
+    </h4>
+    <h4>
+      <span>Range</span> -
+      <span id="range">0 Km</span>
+    </h4>
+    <button class="start-stop" onclick="startStop()" id="start">Start</button>
+    <button class="pay" onclick="reset()">Pay</button>
+    <a href="https://www.linkedin.com/in/sahil-bhandare/"><button class="contact">Contact</button></a>
+  </div>
+
+  <div class="stores">
+  <img src="play.png" class="playstore" alt="playstore"></img>
+  <img src="app.png" class="appstore" alt="appstore"></img>
+  </div>
+
+  </body>
+</html>
